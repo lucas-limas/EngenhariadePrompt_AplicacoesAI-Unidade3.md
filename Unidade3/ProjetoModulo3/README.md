@@ -17,7 +17,6 @@ O sistema resolve um problema real do dia a dia de corretores: a cotação manua
 
 **Sistema hospedado:** [lucas-limas.github.io/saude-prime-sistema-comercial](https://lucas-limas.github.io/saude-prime-sistema-comercial/)
 
-![Tela do cotador em funcionamento](docs/prototipo.png)
 
 **Relatório completo do projeto:** [relatorio.pdf](docs/relatorio.pdf)
 
