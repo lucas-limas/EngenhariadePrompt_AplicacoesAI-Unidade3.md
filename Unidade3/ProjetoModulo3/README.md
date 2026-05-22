@@ -27,7 +27,7 @@ O sistema é dividido em três arquivos que funcionam juntos:
 
 ## ⚙️ Plataforma Utilizada
 
-**Plataforma:** Claude Code (Anthropic) — abordagem **Vibecode** /
+**Plataforma:** Claude Code (Anthropic) — abordagem **lowcode** /
               Copilot - abordagem **no code**            
 
 A escolha foi motivada por três razões práticas:
