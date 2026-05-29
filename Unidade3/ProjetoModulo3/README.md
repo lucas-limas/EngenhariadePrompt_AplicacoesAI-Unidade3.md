@@ -66,16 +66,16 @@ Toda a lógica de cotação vive dentro do cenário Make. Para atualizar preços
 
 ## Abordagem de Desenvolvimento: No-Code com Make
 
-Este projeto foi desenvolvido integralmente com a plataforma **Make**, seguindo a abordagem no-code — os fluxos são montados arrastando e conectando módulos visuais, sem escrever uma linha de código.
+Este projeto foi desenvolvido integralmente com a plataforma **Make**, seguindo a abordagem no-code, os fluxos são montados arrastando e conectando módulos visuais, sem escrever uma linha de código.
 
 ### O que funcionou bem
 - Interface visual facilita entender o fluxo completo de uma vez
-- Make Forms já vem integrado ao cenário por padrão — sem configuração extra
+- Make Forms já vem integrado ao cenário por padrão sem configuração extra
 - Ajustes e correções são feitos diretamente no editor visual, sem redesploy
 - Plano gratuito suficiente para desenvolvimento e testes
 
 ### O que aprendemos na prática
-- No-code não substitui entender o problema — montar módulos sem clareza do fluxo gera automações frágeis
+- No-code não substitui entender o problema montar módulos sem clareza do fluxo gera automações frágeis
 - Lógica condicional complexa (múltiplas operadoras, regras por faixa etária) cresce rápido e precisa ser dividida em sub-cenários
 - O limite de operações do plano gratuito exige planejamento para uso em produção
 - Questões de LGPD precisam ser endereçadas antes de coletar dados reais de clientes
@@ -87,13 +87,18 @@ Este projeto foi desenvolvido integralmente com a plataforma **Make**, seguindo 
 **Disciplina:** Engenharia de Prompt e Aplicações de IA  
 **Módulo:** 3 — Low Code / No Code / Vibecode  
 **Professor(a):** Kadidja Valéria  
-**Instituição:** [Nome da Instituição]  
-**Semestre:** 2026/1
+**Instituição:** UDF - Centro Universitário  
 
 ---
 
-## Autor
+## Autores
 
-**Lucas Limas**  
-Engenharia de Software — 2º Semestre  
-[github.com/lucas-limas](https://github.com/lucas-limas)
+**Lucas Lima - 48367621**
+**João Pedro de Sousa Corrêa Teixeira - 48186368**
+**Breno Amorim da Silva - 47126922**
+**Bianca Moura Sena Araújo - 47717769**
+**Cauã Spinola de Oliveira – 47399023**
+**Gabriella Barbosa Neves - 47764961**
+
+
+
