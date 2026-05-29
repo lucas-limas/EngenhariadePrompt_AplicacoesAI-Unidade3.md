@@ -17,7 +17,6 @@ O sistema resolve um problema real do dia a dia de corretores: a cotação manua
 
 **Formulário de cotação (Make Forms):** [https://us.makeforms.co/cowcpih/](https://us.makeforms.co/cowcpih/)
 
-**Relatório completo do projeto:** [docs/relatorio.html](docs/relatorio.html)
 
 ---
 
