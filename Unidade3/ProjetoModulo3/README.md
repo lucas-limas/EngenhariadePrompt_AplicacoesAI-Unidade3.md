@@ -94,11 +94,17 @@ Este projeto foi desenvolvido integralmente com a plataforma **Make**, seguindo 
 ## Autores
 
 **Lucas Lima - 48367621**
+
 **João Pedro de Sousa Corrêa Teixeira - 48186368**
+
 **Breno Amorim da Silva - 47126922**
+
 **Bianca Moura Sena Araújo - 47717769**
+
 **Cauã Spinola de Oliveira – 47399023**
+
 **Gabriella Barbosa Neves - 47764961**
+
 
 
 
