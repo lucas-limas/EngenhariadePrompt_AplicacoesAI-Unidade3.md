@@ -9,7 +9,7 @@ Automação da cotação de planos de saúde para corretores. O desafio consisti
 ## 🖥️ Protótipo
 
 - **Formulário de cotação (Make Forms):** [https://us.makeforms.co/cowcpih/](https://us.makeforms.co/cowcpih/)
-- **Relatório completo do projeto:** [docs/relatorio.html](docs/relatorio.html)
+- **Relatório completo do projeto:** [docs/relatorio.html](docs/Relatorio.pdf)
 
 O corretor preenche o formulário com os dados do cliente (nome, faixas etárias, quantidades e modalidade de contratação). O cenário Make processa as informações, calcula os valores por operadora e envia o resultado automaticamente por e-mail. Todas as cotações ficam registradas em uma planilha Google Sheets para consulta posterior.
 
