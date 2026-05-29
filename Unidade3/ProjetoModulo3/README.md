@@ -83,8 +83,6 @@ Professor(a): Kadidja Valéria
 
 **Cauã Spinola de Oliveira – 47399023**
 
-**Gabriella Barbosa Neves - 47764961**
-
 
 
 
