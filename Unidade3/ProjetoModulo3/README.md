@@ -8,9 +8,9 @@ Automação da cotação de planos de saúde para corretores. O desafio consisti
 
 ## 🖥️ Protótipo
 
-- **Formulário de cotação (Make Forms):** [https://us.makeforms.co/cowcpih/](https://us.makeforms.co/cowcpih/)
+- **Link do sistema:** https://seguro-prime-app.lovable.app
 
-O corretor preenche o formulário com os dados do cliente (nome, faixas etárias, quantidades e modalidade de contratação). O cenário Make processa as informações, calcula os valores por operadora e envia o resultado automaticamente por e-mail. Todas as cotações ficam registradas em uma planilha Google Sheets para consulta posterior.
+O corretor preenche o formulário com os dados do cliente (nome, faixas etárias, quantidades e modalidade de contratação). O cenário Lovable processa as informações, calcula os valores por operadora e mostra os valores. Todas as cotações ficam registradas em um histórico.
 
 > Arquivos de imagem e PDF estão na pasta `/docs`.
 
@@ -18,17 +18,16 @@ O corretor preenche o formulário com os dados do cliente (nome, faixas etárias
 
 ## ⚙️ Plataforma Utilizada
 
-- **Make** (anteriormente Integromat)
+- **Lovable** (anteriormente Integromat)
 
-- Foi escolhida porque o Make Forms já vem integrado ao cenário por padrão, sem configuração extra, e porque a interface visual permite montar o fluxo completo (formulário → processamento → e-mail → planilha) de forma rápida e legível. O plano gratuito é suficiente para desenvolvimento e testes, e ajustes de lógica ou preços são feitos diretamente no editor visual sem necessidade de deploy.
+- Foi escolhida porque o Lovable Forms já vem integrado ao cenário por padrão, sem configuração extra, e porque a interface visual permite montar o fluxo completo (formulário → processamento → e-mail → planilha) de forma rápida e legível. O plano gratuito é suficiente para desenvolvimento e testes, e ajustes de lógica ou preços são feitos diretamente no editor visual sem necessidade de deploy.
 
 ---
 
 ## ✅ Vantagens Identificadas
 
-1. **Protótipo rápido:** A interface visual do Make permite enxergar e montar o fluxo completo de uma vez, reduzindo drasticamente o tempo de desenvolvimento
-2. **Integração simples:** Make Forms, Google Sheets e módulo de e-mail já se conectam nativamente dentro da plataforma, sem configuração extra
-3. **Automação de processos:** Toda a lógica de cotação vive no cenário, para atualizar preços ou adicionar operadoras basta editar os módulos, sem código e sem redesploy
+1. **Protótipo rápido:** A interface visual do Lovable permite enxergar e montar o fluxo completo de uma vez, reduzindo drasticamente o tempo de desenvolvimento
+2. **Automação de processos:** Toda a lógica de cotação vive no cenário, para atualizar preços ou adicionar operadoras basta editar os módulos, sem código e sem redesploy
 
 ---
 
@@ -36,7 +35,7 @@ O corretor preenche o formulário com os dados do cliente (nome, faixas etárias
 
 1. **Customização limitada:** Lógica condicional complexa (múltiplas operadoras, regras por faixa etária) cresce rápido e precisa ser dividida em sub-cenários para não virar um fluxo ingerenciável
 2. **Dependência da plataforma:** O limite de operações do plano gratuito exige planejamento para uso em produção, escalar o volume de cotações implica custo ou troca de plano
-3. **Risco de lock-in tecnológico:** Toda a lógica está dentro do Make; migrar para outra ferramenta significa recriar os fluxos do zero, além de questões de LGPD que precisam ser endereçadas antes de coletar dados reais de clientes
+3. **Risco de lock-in tecnológico:** Toda a lógica está dentro do Lovable; migrar para outra ferramenta significa recriar os fluxos do zero, além de questões de LGPD que precisam ser endereçadas antes de coletar dados reais de clientes
 
 ---
 
@@ -48,7 +47,7 @@ A principal aprendizagem foi que no-code não substitui entender o problema, mon
 
 ## 👥 Colaboração
 
-O fluxo de trabalho seguiu etapas sequenciais: levantamento do problema real do corretor → desenho do fluxo no Make → construção do formulário → testes de ponta a ponta → documentação. O versionamento da documentação foi feito via Git + GitHub ao longo de todo o processo.
+O fluxo de trabalho seguiu etapas sequenciais: levantamento do problema real do corretor → desenho do fluxo no Lovable → construção do formulário → testes de ponta a ponta → documentação. O versionamento da documentação foi feito via Git + GitHub ao longo de todo o processo.
 
 ---
 
@@ -69,7 +68,7 @@ Professor(a): Kadidja Valéria
 - Adicionar suporte a mais operadoras no fluxo, organizadas em sub-cenários por modalidade de contratação
 - Implementar módulo de consentimento/anonimização de dados para adequação à LGPD antes de uso com clientes reais
 - Criar painel no Google Sheets com métricas das cotações (operadoras mais cotadas, faixas mais frequentes)
-- Avaliar migração para plano pago do Make ou alternativas open-source (n8n) caso o volume de cotações justifique
+- Avaliar migração para plano pago do Lovable ou alternativas open-source VSCode caso o volume de cotações justifique.
 
 ## Autores
 
